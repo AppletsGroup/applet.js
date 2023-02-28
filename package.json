@@ -1,0 +1,19 @@
+{
+  "name": "applet.js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "vite": "^4.1.4"
+  }
+}
