@@ -1,4 +1,5 @@
-# applet-js
+# applet.js
+Declarative utilities for React and Vue
 
 ## Methods
 
