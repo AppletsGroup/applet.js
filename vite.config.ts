@@ -1,7 +1,7 @@
 import path from "path";
 
 import { defineConfig } from "vite";
-// import dts from 'vite-plugin-dts'
+import dts from 'vite-plugin-dts'
 // import react from '@vitejs/plugin-react'
 
 export default defineConfig(() => ({
@@ -20,12 +20,12 @@ export default defineConfig(() => ({
       }
     },
   },
-  // plugins: [
+  plugins: [
   //   react({
   //     // https://github.com/vitejs/vite/issues/7586
   //     // https://github.com/vitejs/vite-plugin-react/issues/3
   //     jsxRuntime: 'classic',
   //   }), 
-  //   dts()
-  // ]
+    dts()
+  ]
 }));
