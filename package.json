@@ -1,8 +1,9 @@
 {
   "name": "applet.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "vite build"
   },
