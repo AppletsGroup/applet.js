@@ -1,1 +1,2 @@
-export * from './createCell'
+export * from './declareCell'
+export * from './declareField'

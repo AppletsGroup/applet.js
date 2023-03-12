@@ -1,10 +1,11 @@
 {
   "name": "applet.js",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "",
   "main": "dist/index.mjs",
   "typings": "dist/index.d.ts",
   "scripts": {
+    "dev": "cd docs && yarn && yarn dev",
     "build": "vite build"
   },
   "keywords": [],

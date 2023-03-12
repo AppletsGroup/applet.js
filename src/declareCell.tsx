@@ -22,7 +22,7 @@ interface CellProps {
   Success: React.FC<SuccessProps>
 }
 
-export const createCell = ({
+export const declareCell = ({
   Query,
   Loading,
   Failure,
